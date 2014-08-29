@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="samsara_tilemap" tilewidth="32" tileheight="32">
+  <image source="../images/samsara_tilemap.png" width="323" height="627"/>
+ </tileset>
+ <tileset firstgid="191" name="meta_tiles" tilewidth="32" tileheight="32" spacing="1" margin="1">
+  <tileoffset x="1" y="1"/>
+  <image source="../images/meta_tiles.png" width="67" height="34"/>
+  <tile id="0">
+   <properties>
+    <property name="Collidable" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="Destination" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="GroundLayer" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt0LkKwkAQxvFFE628Kq/Oo1FQH8ar8ui83kMt1cLGRn1R/8FdWFZDYmIsJB/8mGVJdoYRIk6c/80WO+x/3PeAI04R9+ljgCFGGOOCsxRVJphihjlaaKODLnoR9V1giRXW2AR44/rVibyThC1Zku0hhXTIvhlkkZPVi/NdHgX5/x23gH2dt8ooSeqs3+u1gioS4rkvfUfWm2qytbfrco6aPDe02cw7pza1uf3sSe1KKYvXPp+kaOxDvW/uybwL01NF7cPPvdu3cdzzAMdOFK4=
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="30" height="20">
+  <object name="Destnation" x="911" y="336"/>
+  <object name="SpawnPoint" x="107" y="440" width="14" height="6"/>
+ </objectgroup>
+ <layer name="MetaLayer" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRgA0coIIZ+ynAlNo7EIASeykJq4Hy7ygYBbgAAK5tGWA=
+  </data>
+ </layer>
+</map>
